@@ -10,4 +10,6 @@ Ex:  only IndustryExpert  can curd on Category table and he/she can only show th
 => have to config to apps.py and add urls also and remove admin from install app and have to register our app
 
 
-#app2 => here i create field and fields set customization
+#app2 => here i create field and fields set customization filter search etc
+
+app3=> custom filter

@@ -9,6 +9,9 @@ TEXT = 'Puts User Information Here'
 class TestAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "age","sex","address","email","phone",'qualification')
     list_filter = ['email','name']
+    search_fields = ("email",'name')
+    ordering = ("name","email", "id")
+    filter_horizontal = ()
     fieldsets  = (
         ('Personal Information',{
             'fields':('name','age','sex'),
