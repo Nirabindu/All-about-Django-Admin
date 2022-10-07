@@ -1,0 +1,13 @@
+app => admin.py 
+1.for given diff permission to diff user from admin
+2.also separate django admin site as per diff model and user based
+Ex:  only IndustryExpert  can curd on Category table and he/she can only show the Category Table only
+
+3.change title of the admin(site administration) => admin.site.index_title = "anything" should be in root urls.py
+
+
+4. also we can change or override the default admin to app specific admin site to default
+=> have to config to apps.py and add urls also and remove admin from install app and have to register our app
+
+
+#app2 => here i create field and fields set customization
